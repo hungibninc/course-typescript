@@ -1,7 +1,5 @@
 const today = new Date();
-console.log(today.getMonth());
-today.setFullYear(1998, 6, 1);
-console.log(today.getMonth() + ' ' + today.getFullYear());
+today.getMonth();
 
 const person = {
   age: 20
