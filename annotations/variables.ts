@@ -24,6 +24,11 @@ let point: { x: number; y: number } = {
 };
 
 // Function
+/**
+ * there are 2 parts separated by = character
+ * left side: (i: number) => void. This declare is Type Annotation for variable logNumber. We are telling Typescript that we're going to assign a value to the variable logNumber, type of this variable is function `(i: number) => void`, it's going to take some argument and have some return value
+ * right side: (i: number) => { console.log(i); };. There is no Type Annotation for function at this time
+*/
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
